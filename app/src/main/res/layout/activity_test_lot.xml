@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme"
+    tools:context=".TestLotActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="618dp"
+        android:fontFamily="@font/enriqueta_bold"
+        android:text="@string/testlot"
+        android:textAlignment="center"
+        android:textColor="@color/veryDarkBlue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/spot2box"
+        android:layout_width="113dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/test_spot1"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/spot3box"
+        android:layout_width="113dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="262dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/test_spot1"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/spot1box"
+        android:layout_width="113dp"
+        android:layout_height="285dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="262dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/test_spot1"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</android.support.constraint.ConstraintLayout>

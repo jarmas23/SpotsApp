@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Spots</string>
+    <string name="app_line">Parking. The Right Way.</string>
+    <string name="choose_a">  Choose a Location:</string>
+    <string name="button1">Test Lot - Rutgers University</string>
+    <string name="button2">Lot 64 - Rutgers University</string>
+    <string name="button3">Stadium Lot - Rutgers University</string>
+    <string name="button4">ABOUT US</string>
+    <string name="settings">Settings</string>
+    <string name="testlot">Test Lot - Rutgers University</string>
+    <string name="about_us">About Us</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/assistant_bold</item>
+        <item>@font/bree_serif</item>
+        <item>@font/cantora_one</item>
+        <item>@font/enriqueta_bold</item>
+        <item>@font/poiret_one</item>
+        <item>@font/tulpen_one</item>
+    </array>
+</resources>
